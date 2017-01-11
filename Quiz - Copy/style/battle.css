@@ -1,0 +1,122 @@
+#battleScreen {position:fixed;
+	right:0;
+	left:0;
+	top:100px;
+	margin-left:auto;
+	margin-right:auto;width:750px;}
+#battleScreen #shell {
+	height: 450px;
+	width: 750px;
+	border: 1px solid;
+	background-color: rgb(165, 165, 240);
+	background: url('images/battleBackground.png') no-repeat;
+	font-family: Arial;
+}
+#battleScreen #shell #playerBar
+{
+	height:70px;
+	width:300px;
+	border: 1px solid;
+	float: right;
+	margin-left: 3px;
+	margin-top: 230px;
+	background-color: rgb(241, 238, 202);
+	padding-right: 5px;
+	border-radius: 10px 10px 0px 0px;
+}
+#battleScreen #shell #opponentHp
+{
+	height:90px;
+	width:400px;
+	border: 1px solid;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: rgb(241, 238, 202);
+	padding-left: 5px;
+	text-align:right;
+	font-size: 26px;
+}
+#battleScreen #shell #playerPokemon
+{
+	height: 160px;
+	width: 160px;
+	background: url('../Jacob.png') no-repeat;
+	margin-top:180px;
+	position:fixed;
+	z-index: 2;
+	margin-right: 500px;
+	animation:myfirst 5s infinite;
+	-webkit-animation:movePokemon 5s infinite;
+	background-size: cover;
+	
+	
+}
+#battleScreen #shell #opponentPokemon
+{
+	height: 160px;
+	width: 160px;
+	background: url('images/Pokemon/BattleFront/3.png') no-repeat;
+	margin-left:585px;
+	position:fixed;
+	margin-top: 5px;
+	z-index:10;
+	background-size: cover;
+}
+#battleScreen #shell #opponentPokemonGround
+{
+	height: 40px;
+	width: 160px;
+	background: url('images/battleGround.png') no-repeat;
+	margin-left:585px;
+	position:fixed;
+	margin-top: 125px;
+	z-index:9;
+}
+#battleScreen #shell #playerGUI {
+	text-align:center;
+	font-size:26px;
+
+	
+}
+#battleScreen #shell #playerGUI .Item
+{
+	font-size: 22px;
+	text-align: center;
+	font-family: Arial;
+	height: 50px;
+	min-width: 90px;
+	border: 2px solid;
+	background-color:lightgray;
+	
+	
+}
+#battleScreen #shell #playerGUI .Item:hover
+{
+	background-color: gray;
+}
+#battleScreen #shell #playerGUI
+{
+	height:140px;
+	width:740px;
+	border: 1px solid;
+	position:fixed;
+	margin-top: 300px;
+	background-color: rgb(241, 238, 202);
+	z-index: 3;
+	margin-right: 5px;
+}
+@keyframes movePokemon {
+	10% {margin-top:180px;}
+	30% {margin-top:190px;}
+	50% {margin-top:180px;}
+	70% {margin-top:190px;}
+	90% {margin-top:180px;}
+}
+@-webkit-keyframes movePokemon {
+	10% {margin-top:180px;}
+	30% {margin-top:190px;}
+	50% {margin-top:180px;}
+	70% {margin-top:190px;}
+	
+}

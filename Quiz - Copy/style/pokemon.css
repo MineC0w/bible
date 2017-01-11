@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Alef;
+    src: url(fonts/Alef.woff);
+}
+
+
+body {
+	font-family: Alef;
+	background-color:black;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	
+}

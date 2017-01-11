@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Alef;
+    src: url(fonts/Alef.woff);
+}
+
+
+body {
+	font-family: Alef;
+	background-image:url("images/background.png");
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	
+}
+
+.button {
+	height:50px;
+	width:100px;
+	background-color:rgba(25,166,166,0.2);
+	line-height:50px;
+	
+	-webkit-transition: all 0.5s;
+	transition:all 0.5s;
+}
+
+.button:hover {
+	background-color:rgba(25, 166, 166,1);
+	font-size:22px;
+	height:110px;
+	width:210px;
+}
+
+#instructionsDivBack{
+	height:100%;
+	width:100%;
+	position:fixed;
+	top:0px;
+	z-index:7;
+	background-color:rgba(000,000,000,0.5);
+	text-align:right;
+}
+
+#instructionsDivContent {
+	height:500px;
+	width:350px;
+	position:fixed;
+	right:0;
+	left:0;
+	top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	opacity:1;
+	z-index:8;
+	background-color:white;
+	
+	padding-top:10px;
+	padding-right:10px;
+}
